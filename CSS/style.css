@@ -1,0 +1,263 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(../img/bg2.jpg);
+    background-size: cover;    
+}
+
+.box{
+    width: 450px;
+    background: rgba(0,0,0,0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: auto;
+    color:white;
+    font-family: 'century Gothic', sans-serif;
+}
+.box-img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+.box h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+}
+
+.contact-form h2{
+    color: white;
+}
+.box h5{
+    font-size: 20px; letter-spacing: 3px;
+    font-weight: 100;
+}
+.Contact-Me{
+    position: absolute;
+    right: 0;
+    top: 10px:
+    color: white;
+    padding: 0 60px;
+    display: none;
+	background-color: aqua;
+}
+/*
+.nav-bar{
+	width: 600px;
+	height: 200px;
+	float: right;
+	 overflow: none;
+}
+ul{
+	 float: right;
+	list-style-type: none;
+	margin-top: 25px;
+	}
+ul li{
+	display: inline-block;
+	
+}
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+ul li a:hover{
+	background-color: #f00;
+	color: #00f;
+}
+ul li.active a{
+	background-color: #f00;
+	color: #00f;
+}
+*/
+p{
+	font-size: 13px;
+	font-family: sans-serif;
+	font-weight: 5px;
+	text-align: center;
+}
+/* Style all font awesome icons */
+ul {
+  position:absolute;
+  top:85%;
+  left:50%;
+  transform:translate(-50%, -50%);
+  display:flex;
+  margin:0;
+  padding:0;
+}
+ul li {
+  list-style:none;
+  margin:0 5px;
+}
+ul li a .fa {
+  font-size: 40px;
+  color: #262626;
+  line-height:80px;
+  transition: .5s;
+  padding-right: 14px;
+}
+ul li a span {
+  padding:0;
+  margin:0;
+  position:absolute;
+  top: 30px;
+  color: #262626;
+  letter-spacing: 2px;
+  transition: .5s;
+	font-size: 8px;
+	font-weight: 100px;
+}
+ul li a {
+  text-decoration: none;
+  display:absolute;
+  display:block;
+  width:80px;
+  height:50px;
+  background: #fff;
+  text-align:left;
+  padding-left: 20px;
+  transition:.5s;
+  box-shadow: -20px 20px 10px rgba(0,0,0,.5);    /*making it turn*/
+}
+ul li a:before {
+  content: '';
+  position: absolute;
+  top:10px;
+  left:-20px;
+  height:20%;
+  width:20px;
+  background: #B1B1B1;
+  transform: .5s;
+  transform: rotate(0deg) skewY(-45deg);
+}
+ul li a:after {
+  content: '';
+  position: absolute;
+  bottom:-20px;
+  left:-10px;
+  height:20px;
+  width:100%;
+  background: #B1B1B1;
+  transform: .5s;
+  transform: rotate(0deg) skewX(-45deg);  /* making it kind of paper slip*/
+}
+ul li a:hover {
+  transform: rotate(-30deg) skew(25deg) translate(20px,-15px);
+  box-shadow: -50px 50px 50px rgba(0,0,0,.5);
+}
+ul li:hover .fa {
+  color:#fff;
+}
+ul li:hover span {
+  color:#fff;
+}
+ul li:hover:nth-child(1) a{
+  background: #3B5998;
+}
+ul li:hover:nth-child(1) a:before{
+  background: #365492;
+}
+ul li:hover:nth-child(1) a:after{
+  background: #4A69AD;
+}
+ul li:hover:nth-child(2) a{
+  background: #00ACED;
+}
+ul li:hover:nth-child(2) a:before{
+  background: #097AA5;
+}
+ul li:hover:nth-child(2) a:after{
+  background: #53B9E0;
+}
+ul li:hover:nth-child(3) a{
+  background: #DD4B39;
+}
+ul li:hover:nth-child(3) a:before{
+  background: #B33A2B;
+}
+ul li:hover:nth-child(3) a:after{
+  background: #E66A5A;
+}
+ul li:hover:nth-child(4) a{
+  background: #E4405F;
+}
+ul li:hover:nth-child(4) a:before{
+  background: #D81C3F;
+}
+ul li:hover:nth-child(4) a:after{
+  background: #E46880;
+}
+.wrapper{
+	width: 450px;
+	height: auto;
+	background:  rgba(0,0,0,0.4);
+}
+.contact-title{
+	margin-top: 100px;
+	color: #fff;
+	text-transform: uppercase;
+	transition: all 4s ease-in-out;
+	background:  rgba(0,0,0,0.4);
+}
+.contact-title h1{
+	font-size: 32px;
+	line-height: 10px;
+	
+}
+.contact-title h2{
+	font-size: 16px;
+	
+}
+form{
+	margin-top: 50px;
+	transition: all 4s ease-in-out;
+    
+}
+.form-control{
+	width: 300px;
+	background: transparent;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid gray;
+	color: #fff;
+	font-size: 18px;
+	margin-bottom: 16px;
+	background:  rgba(0,0,0,0.4);
+    transform-style: flat;
+	
+	
+}
+input{
+	height: 45px;
+}
+.submit{
+	background: #FF5722;
+	border-color: transparent;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	height: 50px;
+	margin-top: 20px;
+	width: 300px;
+	
+}
+.submit:hover{
+	background-color: #F44336;
+	cursor: pointer;
+}
+
+    
+textarea{
+	color: aliceblue;
+}
+
+
+
+Message save
+
